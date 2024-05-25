@@ -46,22 +46,24 @@ body {
     max-width: 374.98px;
     padding: 0 20px;
     margin: 0 auto;
+    
 }
 
 .footer {
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 292px;
-    background-image: url(../images/mob/g8-min.png);
+    background-image: url(../images/mob/footer@1x-mob.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    border-top: 1px solid rgba (252, 249, 249, .1);
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 375px),
 screen and (min-resolution: 2dppx) and (min-width: 375px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     .footer {
-        background-image: url(../images/mob/g8-min.png);
+        background-image: url(../images/mob/footer@2x-mob.png);
         background-size: 375px;
     }
 }
@@ -69,8 +71,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
 .footer-container {
     padding-top: 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba (252, 249, 249, .1);
-
 }
 
 
@@ -124,6 +124,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
 /* Tablet */
 
 @media screen and (min-width: 768px) {
+
+    .footer {
+    border-top: 1px solid rgba (252, 249, 249, .1);
+    }
     .footer-title {
         font-size: 54px;
         line-height: 1.19;
@@ -179,6 +183,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* Desktop 1280 */
 
 @media screen and (min-width: 1280px) {
+
+    .footer {
+        border-top: 1px solid rgba (252, 249, 249, .1);
+    }
 
 .container {
         min-width: 1280px;
@@ -241,6 +249,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .footer {
+        border-top: 1px solid rgba (252, 249, 249, .1);
         background-image: url(../images/desktop1280/footer@2x-desktop_1280.png);
     }
 }
@@ -260,6 +269,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         background-image: url(../images/desktop1440/footer@1x-desktop_1440.png);
         background-size: 496px;
         max-width: 1440px;
+        border-top: 1px solid rgba (252, 249, 249, .1);
     }
 }
 
